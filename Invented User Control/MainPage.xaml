@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Invented_User_Control.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Invented_User_Control"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Invented_User_Control.User_Control"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <controls:FichaJuego 
+                titulo="Default game" 
+                descripcion="Ajkfjlekkvjfclkvklbvkdkdp+fpogpf">
+            </controls:FichaJuego>
+            <controls:FichaJuego
+                imgCabecera="../Assets/tr1logo.png"
+                img1="../Assets/tr1img1.png"
+                img2="../Assets/tr1img2.png"
+                titulo="Tomb Raider" 
+                descripcion="Tomb Raider es un videojuego de aventura de acción y plataformas, uno de los primeros en 3D aparecidos para la generación de 32 bits, desarrollado por Core Design y distribuido por Eidos Interactive. Es el primer juego de la serie Tomb Raider y narra las aventuras de Lara Croft, una arqueóloga británica en busca de tesoros y reliquias del mundo antiguo al más puro estilo deIndiana Jones. Tomb Raider salió a la venta en noviembre de 1996 para Sega Saturn, y fue adaptado poco después para PCCD-ROM y PlayStation.">
+            </controls:FichaJuego>
+        </StackPanel>
+    </ScrollViewer>
+
+</Page>
